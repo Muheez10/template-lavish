@@ -1,0 +1,309 @@
+body {
+  margin: 0;
+  text-align: center;
+  color:#999;
+  background-color:black ;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,h2,h3,h4,h5
+    {
+        color: #ffffff;
+         font-weight: bold; 
+    }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+                           /* HOME START */
+
+.home{
+  background: url('./home.png');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size:cover ;
+  height:100vh ;
+  padding-top: 20vh;
+}   
+
+
+.home h1
+    {
+        border: 2px solid #D43F52;
+        color: #D43F52;
+        display: inline-block;
+        letter-spacing: 6px;
+        padding: 23px 32px;
+        margin: 30px 0;
+    } 
+                        /* HOME END */
+
+                                        /* BUTTON START */
+    .button1{
+      background: transparent;
+      font-size: 16px;
+        font-weight: bold;
+      padding: 14px 35px;
+      color: white;
+      border: 2px solid white;
+      border-radius: 3px;
+      display: inline-block; 
+      transition: all 0.4s ease-in-out;
+    }
+
+    .button1:hover
+    {
+      color: white;
+        background: #D43F52;
+        border-color: transparent;
+    } 
+     
+                               /* WHAT I DO START */
+ #work
+    {
+        background: #1a1a1a;
+        height: 50vh;
+        letter-spacing: 0;
+    }
+#work h2
+    {
+        text-align: center;
+    }
+#different{
+  text-align: center;
+  padding-top: 10vh
+}
+
+#work .media
+    {
+      margin-top: 30px;
+      display: flex;
+      text-align: justify;
+    }
+	
+#work .media .fas
+    {
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+        color: #006ec9;
+        font-size: 24px;
+        margin-right: 24px;
+        width: 60px;
+        height: 60px;
+        margin-top: 5vh;
+        padding-bottom: 10px;
+        line-height: 55px;
+        text-align: center;
+        vertical-align:middle;
+        transition: all 0.4s ease-in;
+    }
+#work .media .fas:hover
+    {
+        background: #ffffff;
+        cursor: pointer;
+    }
+#work .media .media-heading
+    {
+        font-weight: 600;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+                              /* WHAT I DO END */
+
+                             /* ABOUT START */
+#about{
+  text-align: justify;
+  height: 50vh;
+}
+#about div.row{
+ margin-top: 10vh;
+}
+
+#about h2{
+  color: white;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  margin: 20px 0px 10px;
+}
+
+#about p{
+  color: #9999;
+  font-size: 16px;
+  margin: 0px 0px 10px;
+  font-family: 'Raleway', sans-serif;
+}
+      #about h4
+      {
+          padding: 15px 0;
+      color: #2452cf;
+      margin: 10px 0px;
+      font-size: 18px;
+      font-family: 'Raleway', sans-serif;
+      }
+  #about .progress
+      {
+          border-radius: 4px;
+          background: #ffffff;
+          height: 4px;
+      }
+  #about .progress .progress-bar-danger
+      {
+          background: #D43F52;
+      }
+  #about .text-top
+      {
+          padding-top: 50px;
+      }
+  #about span.text-top{
+    color: white;
+    font-size: 16px;
+    padding: 50px 0px 6px;
+    font-family: 'Raleway', sans-serif;
+  }
+  #about span
+      {
+          color: #ffffff;
+          font-weight: bold;
+          display: block;
+           font-size: 16px;
+           font-family: 'Raleway', sans-serif;
+          padding:30px 0px 6px;
+      }
+  #about small
+      {
+          font-weight: bold;
+          float: right;
+      }                            
+                           /* ABOUT END */
+  
+                           /* PORTFOLIO START */
+    #portfolio
+    {
+        background: #1a1a1a;
+        text-align: center;
+        padding-bottom: 15vh;
+    }
+#portfolio h2
+    {
+      font-family: 'Raleway', sans-serif;
+      font-size: 30px;
+        padding-bottom: 30px;
+        margin-top: 17vh;
+    }
+#portfolio .portfolio-thumb
+    {
+        overflow:hidden;
+        position:relative;
+        margin-bottom: 30px;
+    }
+#portfolio .portfolio-thumb .portfolio-overlay
+    {
+        background: #4050e0;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        padding-top: 60px;
+        transition: all 0.4s ease-in-out;
+    }
+#portfolio .portfolio-thumb:hover .portfolio-overlay
+    {
+        cursor: pointer;
+        opacity: 0.7;
+        transform: scale(0.9);
+    } 
+                                    /* PORTFOLIO END */
+
+                                     /* CONTACT START */
+    #contact{
+     text-align: justify;
+     padding-left: 25vh;
+     padding-bottom: 30vh;
+    }            
+    
+    #contact div.row {
+      margin-top: 10vh;
+    }
+    #contact address
+    {
+      padding-bottom: 18px;
+    }
+  
+#contact .contact-title
+    {
+    font-size: 24px;
+    font-weight: bold;
+        padding-bottom: 20px;
+    color: #ffffff;
+    }
+#contact .fas
+    {
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+        color: #2c61d4;
+        width: 50px;
+        height: 50px;
+        line-height: 45px;
+        text-align: center;
+        margin-right: 20px;
+        transition: all 0.4s ease-in;
+    }
+    #contact .fas:hover
+    {
+       background-color: white;
+       cursor: pointer;
+    }
+#contact .form-control
+    {
+        background: transparent;
+        border: 2px solid #999;
+        border-radius: 0;
+        box-shadow: none;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+#contact input
+    {
+        height: 50px;
+    }
+#contact input[type="submit"]
+    {
+        background: #2c61d4;
+        border: 2px solid transparent;
+        color: #ffffff;
+        font-weight: bold;
+        transition: all 0.4s ease-in-out;
+    }
+#contact input[type="submit"]:hover
+    {
+        background: #ffffff;
+        color: #2c61d4;
+    }
+
+#contact input:focus{
+  background-color: white;
+  color: black; 
+}
+
+#footer p{
+  text-align: center;
+  margin-bottom:0.1vh;
+  text-decoration: none;
+}
+
+.flex{
+  display: inline-flex;
+}
+
+.fab{
+  padding: 15px;
+}
